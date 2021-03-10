@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Digital Minds | نادي العقول الرقمية </title>
+  <title> الفعاليات  </title>
   <link rel="shortcut icon" href="https://i.postimg.cc/0j8L4rYF/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,103 +14,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&display=swap" rel="stylesheet">
   <!-- Bootstrap 4 CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <style>
-  html {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-
-  body {
-    background: linear-gradient(142deg, rgba(32, 6, 91, 1) 0%, rgba(98, 39, 90, 1) 100%);
-    height: 100%;
-    margin: 0;
-    height: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Cairo', sans-serif;
-    
-  }
-
-  footer .col-md-7 {
-    border-left: 1.2px solid white;
-    opacity: 60%;
-  }
-
-  .nav-bar-button {
-    color: white !important;
-    position: absolute;
-    top: -2.6rem !important;
-    left: 0;
-    border: none;
-    padding: 3px;
-  }
-
-  .nav-bar-button .fa-bars {
-    font-size: 2rem;
-    color: white !important;
-  }
-
-  .header {
-    padding: 2%;
-    text-align: center;
-    color: white;
-  }
-
-  #tabs {
-    margin-top: -5%;
-    padding: 0.5%;
-  }
-
-  #tabs .nav-link {
-    color: white;
-    text-decoration: none;
-    font-family: 'Cairo', sans-serif;
-    font-size: 23px;
-    font-weight: 100;
-    position: relative;
-    border-radius: 20px;
-    text-align: center;
-
-  }
-
-  #tabs a:hover {
-    opacity: 70%;
-    background-color: #ffffff;
-    color: #3E2960;
-  }
-
-  #bcground {
-    background-image: url(https://i.postimg.cc/Hxtrg3x6/background.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-size: cover;
-    padding-bottom: 10%;
-    margin: 0;
-  }
-
+ 
   .left-title {
     background: rgb(216, 58, 136);
     background: linear-gradient(157deg, rgba(216, 58, 136, 1) 0%, rgba(213, 60, 137, 1) 10%, rgba(100, 112, 172, 1) 92%);
     color: white;
     font-family: 'Cairo', sans-serif;
-    font-size: 20px;
+    font-size: 150%;
     font-weight: 500;
-    border-radius: 25px;
-    width: 30%;
+    border-radius: 20px;
+    width: 50%;
     height: 30%;
     margin-left: 65%;
     margin-top: 1%;
     position: relative;
     text-align: center;
     margin-bottom: 2%;
+    
   }
 
   .events-container {
@@ -149,21 +73,15 @@
     border-radius: 20px;
   }
 
-  .events-boxes:hover,
-  .events-boxes-2:hover {
-    opacity: 75%;
-  }
-
   .events-boxes-2 {
-    background-color: #181947;
+    background-color: #201837;
+    background: linear-gradient(50deg, rgb(31, 0, 56) 10%, rgb(3, 17, 85) 92%);
     width: 100%;
-    flex-wrap: nowrap;
+    height: 300px;
     float: right;
     align-content: center;
-    overflow: hidden;
-    height: 13rem;
-    text-align: center;
-
+    padding: 10px;
+    border-radius: 20px;
   }
 
   .event-name {
@@ -191,55 +109,22 @@
     font-weight: bold;
   }
 
-  footer {
-    position: absolute;
+  #comingEvents {
+    height: 300px;
     width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-
-  .footer {
-    padding: 10px;
-    color: #ffffff;
-  }
-
-  .navbar-toggler-fa {
-    position: relative;
-    bottom: 4%;
-  }
-
-  .col-md-7 .location,
-  .col-md-7 .socialIcons a {
-    margin-top: 1.6rem;
-  }
-
-  .padding-0 {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  .padding-3 {
-    padding: 3px;
-  }
-
-  .socialIcons,
-  .socialIcons a {
-    padding: 1%;
-  }
-
-  .socialIcons a:hover {
-    opacity: 70%;
-  }
-
-  #footer {
-    text-align: center;
+    background-color: #1e002c;
+    background: linear-gradient(90deg, #450086 10%,#000936 92%);
     font-family: 'Cairo', sans-serif;
-    font-size: 20px;
-    color: #B4A3B9;
-  }
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
 
-  #footer h6 {
-    font-size: 20px;
   }
 
   .events-container img {
@@ -296,53 +181,28 @@
     border-radius: 12px;
     width: 50%;
     outline: none;
+  }
+  .Reg-button {
+    background-color: #DC4086;
+    border: none;
+    color: white;
+    padding: 2.5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: cairo;
+    margin: 10%;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 50%;
+    outline: none;
+   
     
   }
-  #xxsmall {
-    display: none;
-  }
-
-  @media (max-width: 476px) {
-    .header_logo {
-      width: 80%;
-    }
-
-    #club-name {
-      display: none !important;
-    }
-
-    #extra-small {
-      display: none;
-    }
-
-    #xxsmall {
-      display: block;
-    }
-
-    #xxsmall img {
-      float: right;
-      width: 50px;
-      height: 50px;
-    }
-  }
-
-  @media (max-width: 236px) {
-    #xxsmall img {
-      width: 60px;
-      height: 40px;
-    }
-  }
-  @media (max-width: 474px) {
-
-    /*holds untill 474px*/
-    .header_logo {
-      width: 80%;
-    }
-  }
-
+  
   @media (max-width: 278px) {
 
-    /*holds untill 278px*/
+    
     .header_logo {
       width: 90%;
     }
@@ -351,21 +211,8 @@
       font-size: 70%;
     }
 
-    .event-name {
-      font-size: 96%;
-    }
-
-    .desc {
-      font-size: 70%;
-
-    }
-
-    .events-boxes-2 {
-      height: 100%;
-      padding: 10%;
-      font-family: 'Cairo', sans-serif;
-    }
   }
+  
   @media (min-width: 767.0px) and (max-width: 767.9px) {
 
     .navbar-collapse .fa {
@@ -385,97 +232,9 @@
     footer .col-md-7 {
       border-left: none;
     }
+ 
   }
 
-  @media (max-width: 767px) {
-
-    /*md*/
-    html {
-      font-size: 80% !important;
-    }
-
-    footer .col-md-7 {
-      border-left: none;
-    }
-
-    #footer {
-      font-size: 92%;
-    }
-
-    #footer img {
-      width: 25px;
-      height: 25px;
-    }
-
-    #footer h6 {
-      font-size: 96%;
-      margin-top: 5px;
-    }
-
-    .underline {
-      border-bottom: 1px solid grey;
-      width: 100%;
-    }
-
-    .navbar-collapse .fa {
-      font-size: 2rem;
-    }
-
-    .close-btn {
-      position: absolute;
-      right: 1rem;
-      top: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .navbar-collapse .nav-links-collapse {
-      margin-top: 2.5rem;
-    }
-
-    .nav-link {
-      color: black !important;
-      padding: 8% !important;
-      margin-top: 2.1rem;
-      font-size: 16px !important;
-      font-weight: 100;
-      text-align: center;
-    }
-
-    #tabs .nav-link {
-      width: 6rem;
-      border-radius: 10px;
-    }
-
-    .navbar-collapse {
-      position: fixed;
-      top: 0;
-      right: 0;
-      padding-top: 10% !important;
-      padding-right: 10%;
-      line-height: 1.3rem;
-      padding-left: 20% !important;
-      height: 100%;
-      background: white !important;
-      font-size: 1.2rem;
-      z-index: 5;
-    }
-
-    .navbar-collapse.collapsing {
-      height: 100%;
-      right: -75%;
-      transition: height 0s ease;
-    }
-
-    .navbar-collapse.show {
-      right: 0;
-      transition: right 400ms ease-in-out;
-    }
-
-    .navbar-toggler.collapsed~.navbar-collapse {
-      transition: right 400ms ease-in;
-    }
-
-  }
 </style>
 
 <body onload="f()">
@@ -533,7 +292,7 @@
           <a class="navbar-brand" href="#">
           </a>
           <button id="blurr" class="navbar-toggler nav-bar-button mr-auto float-left" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i class="fa fa-bars"></i></span>
+            <span><i class="fa fa-bars" style="margin:10px;"></i></span>
           </button>
           <div class="collapse navbar-collapse bg-custom px-3 text-center" id="navbarCollapse">
             <div class="close-btn">
@@ -581,21 +340,33 @@
       <!-- Achievments -->
       <div class="container">
         <div class="events-container">
-          <div class="left-title text-center">الفعاليات القادمة</div>
+          <div class="left-title text-center" >الفعاليات الحالية</div>
           <div class="container text-center">
             <div class="row Achivements pt-4">
-              <div class="col-md-1">
-              </div>
-              <div class="col-md-10">
-                <div class="events-boxes-2">
-                  <div class="event-name">لا يوجد فعاليات متاحة للتسجيل</div>
-                 <!-- <button type="button" class="more-button" data-target="#previous-events">الذهاب للفعاليات السابقة</button> -->
+              
+                <div class="col-md-4">
+                  <div id="comingEvents">
+                     
+                    <div>
+                        <img src="https://i.postimg.cc/5NTVKv3T/Logo-Taiar.png" style="width:100%;" alt="الفعالية" />
+                        <!--<h1> فعالية تيار </h1>-->
+                    <button type="button" class="Reg-button" data-target="#">
+                      تسجيل
+                    </button>
+                  </div>
+                  </div>
                 </div>
+                 <!-- <div class="events-boxes-2">
+                    <img src="https://i.postimg.cc/5NTVKv3T/Logo-Taiar.png" style="width:40%; height: 100px;" alt="الفعالية" />
+                    <div class="event-name">فعالية تيار</div>
+                    <div class="desc">ممكن وصف بسيط للفعالية؟</div>
+                    <button type="button" class="Reg-button" data-target="#">
+                      تسجيل
+                    </button>
+                  </div> -->
                 
-              </div>
-              <div class="col-md-1">
-              </div>
-            </div>
+                
+             
           </div>
         </div>
       </div>
@@ -672,7 +443,7 @@
             <div class="row" class="Achivements pt-4">
               <div class="col-md-4 mb-4">
                 <div class="events-boxes">
-                  <img class="img-fluid" src="https://i.postimg.cc/mksBmdqZ/Global-Game.png" alt="GGJ" />
+                  <img class="img-fluid" src="https://i.postimg.cc/VNZvwQtj/2021-03-07-2.png" alt="GGJ" />
                   <div class="event-name">Global Game Jam</div>
                   <div class="desc">تنمية مهارة تطوير الألعاب من خلال تبادل الخبرات بين المتسابقات</div>
                   <button type="button" class="more-button" data-toggle="modal" data-target="#global-game">
@@ -795,7 +566,7 @@
               <img class="img-fluid" src="https://i.postimg.cc/yY6DmPZX/GameBox.jpg">
               <div class="event-name text-center">GameBox</div>
               <div class="desc mt-2">
-                <p>أقيمت فعالية مسار المطورات بالتعاون مع المركز التدريبي التابع للشراكة الطلابية ، وهي فعالية تجمع بين
+                <p>أقيمت فعالية مسار المطورات(قيم بوكس) بالتعاون مع المركز التدريبي التابع للشراكة الطلابية ، وهي فعالية تجمع بين
                   التعلم والمتعة والتدريب والترفيه، وتضمن الفعالية عدة ورش لتطوير الألعاب وكانت أولى هذه الورش: ورشة
                   الرسم وتكوين الشخصيات مع أ.أثير الكبير، التي تضمنت أساسيات تصميم الشخصيات واستيعاب النصوص
                   واستنباط الشخصيات وتخيل الشخصيات وتحويلها إلى محتوى مرئي.</p>
@@ -837,7 +608,7 @@
               <div class="event-name text-center">Digital stars</div>
               <div class="desc mt-2">
                 <p>الفعالية عبارة عن فعالية تعليمية وتنافسية في مجال تطوير الألعاب الإلكترونية على مستوى الجامعات الحكومية في منطقة الرياض, تقام تحت صرح جامعة الملك سعود- عمادة شؤون الطلاب - نادي العقول الرقمية التابع لكلية علوم الحاسب والمعلومات,
-                  حيث تقدم فعالية ديجيتال ستارت تدريب وتأهيل لكل فتاة شغوفة في مجال تطوير الألعاب من الصفر تحت أيدي العديد من الخبيرات وصولاً بها إلى مرحلة التنافس الفعلي المباشر تحت سقف واحد لمدة ثلاث أيام فقط وتسعى إلى تحقيق الرؤية الوطنية برفع
+                  حيث تقدم فعالية ديجيتال ستارز تدريب وتأهيل لكل فتاة شغوفة في مجال تطوير الألعاب من الصفر تحت أيدي العديد من الخبيرات وصولاً بها إلى مرحلة التنافس الفعلي المباشر تحت سقف واحد لمدة ثلاث أيام فقط وتسعى إلى تحقيق الرؤية الوطنية برفع
                   جودة الحياة وإضفاء المتعة على الصرح التعليمي.</p>
               </div>
             </div>
@@ -1029,7 +800,7 @@
                     واُقيمت الفاعلية خلال يومين؛ ففي اليوم الأول
                     عُرضت محاضرة تتطرق لمواضيع مختلفة حول الأمن السيبراني، وفي اليوم الثاني أُقيمَ ويبنار الأمن
                     السيبراني الذي طُرِح فيه أهم المجالات العملية في تخصص الأمن السيبراني والدور المهم لمتخصصيه
-                    ووظائهم، وقدمت الفعالية من طالبات متخصصات في هذا المجال، كما تضمنت الفعالية مساحة تفعالية طُرِحت
+                    ووظائفهم، وقدمت الفعالية من طالبات متخصصات في هذا المجال، كما تضمنت الفعالية مساحة تفعالية طُرِحت
                     بها النقاشات والمسابقات.</p>
                 </div>
               </div>
